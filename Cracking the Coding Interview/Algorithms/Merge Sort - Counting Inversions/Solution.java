@@ -12,7 +12,7 @@ import java.util.Arrays;
 //  Time Complexity: O(n log n)
 // Space Complexity: O(n)
 public class Solution {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int testcases = scan.nextInt();
         while (testcases-- > 0) {
@@ -22,7 +22,7 @@ public class Solution {
                 array[i] = scan.nextInt();
             }
             MergeSort ms = new MergeSort();
-            System.out.println(ms.mergeSort(arr));
+            System.out.println(ms.mergeSort(array));
         }
         scan.close();
     }
